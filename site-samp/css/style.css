@@ -1,0 +1,178 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #2B2A33;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    height: 90px;
+}
+
+.logo img{  
+    height: 100%;
+    width: 140px;
+}
+
+nav{
+    width: 50%;
+    height: 90px;
+    text-align: right;
+    padding: 10px 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.cards-vips{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card{
+    width: 20%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 20px auto;
+}
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.txt-cards{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.txt-cards h2{
+    margin: 0 auto;
+    width: 500px;
+    border-bottom: 1px solid white;
+}
+
+.txt-sec{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+}
+
+.txt-sec p{
+    color: rgb(179, 179, 179);
+}
+
+
+
+
+.section2{
+    margin-top: 30px;
+    display: flex;
+}
+
+.txt-sec2{
+    text-align: center;
+    width: 33%;
+    margin: 30px;
+}
+
+.section2 p{
+    color: rgb(179, 179, 179);
+}
+
+
+
+
+@media screen and (max-width:768px){
+    header{
+        display: block;
+    }
+
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav{
+        width: 100%;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    nav ul{
+        border-bottom: 2px solid white;
+    }
+    .cards-vips{
+        display: block;
+    }
+    .card{
+        width: 80%;
+    }
+
+    nav ul li{
+        margin: 6px;
+    }
+
+    .txt-cards h2{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .txt-cards{
+        margin-top: 100px;
+    }
+
+    .section2{
+        margin-top: 30px;
+        display: block;
+    }
+    .txt-sec2{
+        text-align: center;
+        width: 80%;
+        margin: 30px;
+    }
+}
