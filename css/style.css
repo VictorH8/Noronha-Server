@@ -125,9 +125,6 @@ nav a:hover{
     color: rgb(179, 179, 179);
 }
 
-
-
-
 @media screen and (max-width:768px){
     header{
         display: block;
