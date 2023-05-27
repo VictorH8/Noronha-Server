@@ -18,9 +18,12 @@ body{
 }
 
 header{
+    background-color: #19191da2;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
     width: 100%;
-    height: 100px;
+    height: 95px;
     display: flex;
+    padding: 7px;
 }
 
 .logo{
@@ -61,6 +64,7 @@ nav a:hover{
 
 
 .disc-sec{
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -74,14 +78,15 @@ nav a:hover{
     width: 130px;
     height: 40px;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 15px;
     font-weight: bold;
     transition: 0.6s;
+    border: 2px solid white;
     cursor: pointer;
 }
 
 .disc-sec button:hover{
-    color: black;
+    color: #2B2A33;
     background-color: white;
 }
 
@@ -91,16 +96,12 @@ nav a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 552px;
+}
 
 
 
@@ -135,5 +136,12 @@ nav a:hover{
     } 
     .disc-sec img{
         width: 250px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 620px;
+        width: 100%;
     }
 }
